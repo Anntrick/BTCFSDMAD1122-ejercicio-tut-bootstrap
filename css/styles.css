@@ -1,0 +1,89 @@
+#logo-menu {
+    width: 75px;
+}
+
+#menu-cabecera a {
+    font-weight: 800;
+    padding: 1px 12px;
+    color: black;
+}
+
+#menu-cabecera .active, #menu-cabecera a:hover {
+    border-bottom: 5px black solid;
+}
+
+.icons-cabecera {
+    margin: 1em 0.5em;
+    color: black;
+}
+
+.icons-cabecera i {
+    position: relative;
+    top: 1em;
+}
+
+.bi::before {
+    font-size: 24px;
+
+}
+
+#icon-yt:hover {
+    color: orangered;
+}
+
+#icon-fb:hover {
+    color: green;
+}
+
+#icon-in:hover {
+    color:red;
+}
+
+#icon-tw:hover {
+    color: yellow;
+}
+
+#icon-sp:hover {
+    color: orange;
+}
+
+#row-cabecera > div {
+    display: flex;
+    justify-content: center;
+}
+
+#img-cabecera {
+    width: 100%;
+}
+
+.cabecera-texto {
+    color: white;
+    font-weight: 800;
+    position: relative;
+    top: calc(100% - 6em);
+    left: 1em;
+}
+
+#cabecera-mayus {
+    top: calc(100% - 2em);
+    left: -2em;
+    font-size: 2em;
+}
+
+#transparencia {
+    height: calc(100% - 49px);
+    position: relative;
+    top: calc(-100% + 49px);
+    background-color: rgb(0 0 0 / 20%);
+}
+
+@media (max-width: 600px) { 
+    #transparencia > span {
+        display: none;
+    }
+
+    #transparencia {
+        height: 100%;
+        top: -100%;
+    }
+}
